@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project name="Open FPV Racing Bibliography">
+	<record name="build.log"/>
 	<property name="Xalan" value="C:\bin\xalan.jar" />
 	<target name="html" description="Create single page">
 	   	<antcall target="xslt-xalan">
