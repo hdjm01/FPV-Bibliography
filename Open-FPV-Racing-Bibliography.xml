@@ -10,16 +10,15 @@
 	<info>
 		<title>Open FPV Racing Bibliography</title>
 		<!-- <subtitle></subtitle> -->
-		<author>
-			<personname>
-				<firstname>Hans</firstname>
-				<surname>Müller</surname>
-			</personname>
-		</author>
+		<!-- <author> -->
+			<!-- <personname> -->
+				<!-- <firstname>Hans</firstname> -->
+				<!-- <surname>Müller</surname> -->
+			<!-- </personname> -->
+		<!-- </author> -->
 		<address>
 			<link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography" />
 		</address>
-		
 		<!-- <abstract> -->
 			<!-- <para></para> -->
 		<!-- </abstract> -->
