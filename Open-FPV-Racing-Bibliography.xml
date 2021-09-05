@@ -8,8 +8,8 @@
 	xml:id="Open-FPV-Racing-Bibliography">
 
 	<info>
-		<title>Open FPV Racing Bibliography</title>
-		<!-- <subtitle></subtitle> -->
+		<title>FPV Racing Bibliography</title>
+		<subtitle>Open Docbook Project</subtitle>
 		<!-- <author> -->
 			<!-- <personname> -->
 				<!-- <firstname>Hans</firstname> -->
@@ -46,9 +46,13 @@
 	</info>
 
 	<para>
-		###
+		Can be used for links to bibliography entries from other documents.
 	</para>
-	
+
+	<para>
+		Project Website <link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography"/>
+	</para>
+		
 	<biblioentry>
 		<title>The FUTURE of Shark Byte</title>
 		<subtitle>How HDZero, Fat Shark, and Divimath are Connected</subtitle>
