@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE bibliography PUBLIC "-//OASIS//DTD DocBook V5.0//EN" "./dtd/docbook-5.0/docbook.dtd">
+<bibliography status="InDevelopment" version="5.0"
+	xml:lang="de" 
+	revision="v1.0" 
+	xmlns="http://docbook.org/ns/docbook"
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xml:id="Open-FPV-Racing-Bibliography">
+
+	<info>
+		<title>Open FPV Racing Bibliography</title>
+		<!-- <subtitle></subtitle> -->
+		<!-- <author> -->
+			<!-- <personname> -->
+				<!-- <firstname>Hans</firstname> -->
+				<!-- <surname>Müller</surname> -->
+			<!-- </personname> -->
+		<!-- </author> -->
+		<address>
+			<link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography" />
+		</address>
+		<!-- <abstract> -->
+			<!-- <para></para> -->
+		<!-- </abstract> -->
+		
+		<!-- <releaseinfo> -->
+			<!-- ... -->
+		<!-- </releaseinfo> -->
+		
+		<!-- <revhistory> -->
+			<!-- <info> -->
+				<!-- <title>...</title> -->
+			<!-- </info> -->
+			<!-- <revision> -->
+				<!-- <revnumber>###</revnumber> -->
+				<!-- <date>###</date> -->
+				<!-- <revdescription> -->
+					<!-- <itemizedlist> -->
+						<!-- <listitem> -->
+							<!-- <para>###</para> -->
+						<!-- </listitem> -->
+					<!-- </itemizedlist> -->
+				<!-- </revdescription> -->
+			<!-- </revision> -->
+		<!-- </revhistory> -->
+	</info>
+
+	<para>
+		###
+	</para>
+	
+	<biblioentry>
+		<title>The FUTURE of Shark Byte</title>
+		<subtitle>How HDZero, Fat Shark, and Divimath are Connected</subtitle>
+		<!-- <abbrev>?</abbrev> -->
+		<bibliosource><link xlink:href="https://www.youtube.com/watch?v=7krQVRYIREw">YouTube</link></bibliosource>
+	</biblioentry>
+	
+	<biblioentry>
+		<title>Taranis QX7S -- Better than the X7 but...</title>
+		<keywordset>
+			<keyword>Taranis</keyword>
+			<keyword>Video</keyword>
+		</keywordset>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=rfn70ZWVnFU"/>
+		</bibliosource>
+	</biblioentry>
+	
+</bibliography>

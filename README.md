@@ -1,2 +1,5 @@
-# Open-FPV-Racing-Bibliography
-Open FPV Racing Bibliography
+# Open FPV Racing Bibliography
+
+A Collection of Media about FPV Racing based on Docbook
+
+[HTML Version](./Open-FPV-Racing-Bibliography.html)
