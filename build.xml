@@ -6,7 +6,10 @@
 	<property name="Xalan" value="bin/xalan.jar" />
 
     <target name="init" description="prepare">
-        <mkdir>build</mkdir>
+        <mkdir dir="./build"/>
+        <echo>${user.dir}</echo>
+        <echo>${user.home}</echo>
+        <echo>${basedir}</echo>
     </target>
 
 	<target name="html" description="Create single page" depends="init">
