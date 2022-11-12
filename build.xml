@@ -118,7 +118,7 @@
          </exec>
     </target>
 
-    <target name="fop-linux" description="XSL Transformation on Windows mashines" if="isLinux">
+    <target name="fop-unix" description="XSL Transformation on Windows mashines" if="isUnix">
 
         <echo>Input:  ${in}</echo>
         <echo>Output: ${out}</echo>
