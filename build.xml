@@ -30,7 +30,7 @@
 
     <target name="html" description="Create single page">
 
-        <antcall target="xslt-widows">
+        <antcall target="xslt-windows">
                <param name="xsl" value="${xsl-dir}/html.xsl"/>
             <param name="input" value="${infile}"/>
             <param name="output" value="${outfile}"/>
