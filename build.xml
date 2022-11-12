@@ -7,12 +7,13 @@
 
     <target name="init" description="prepare">
         <mkdir dir="./build"/>
+        <mkdir dir="./build/css"/>
         <echo>${user.dir}</echo>
         <echo>${user.home}</echo>
         <echo>${basedir}</echo>
     </target>
 
-	<target name="html" description="Create single page" depends="init">
+	<target name="html" description="Create single page">
 	   	<antcall target="xslt-xalan">
 	       	<param name="xsl" value="xsl/html.xsl"/>
 	        <param name="input" value="./Open-FPV-Racing-Bibliography.xml"/>

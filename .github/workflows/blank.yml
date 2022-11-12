@@ -25,17 +25,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Init
+        run: ant init
+
       - name: HTML
         run: ant html
+        
+      - name: CSS
+        run: cp ./css/* ./build/css/
 
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: dist-without-markdown
-          path: build
       - name: Archive code coverage results
         uses: actions/upload-artifact@v3
         with:
-          name: HTML
-          path: build/Open-FPV-Racing-Bibliography.html
-
+          name: FPV-Racing-Bibliography
+          path: build
