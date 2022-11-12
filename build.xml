@@ -28,6 +28,7 @@
 
     <target name="build" description="prepare" depends="init">
         <antcall target="html"/>
+        <antcall target="pdf"/>
     </target>
 
     <target name="html" description="Create single page">
@@ -81,7 +82,7 @@
         </exec>
     </target>
 
-    <target name="PDF" description="Create PDF file">
+    <target name="pdf" description="Create PDF file">
         <antcall target="fop-unix">
             <param name="in" value="${infile}" />
             <param name="out" value="${pdf}" />
