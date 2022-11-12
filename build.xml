@@ -2,8 +2,8 @@
 
 <project name="Open FPV Racing Bibliography">
 
-	<record name="build.log"/>
-	<property name="Xalan" value="bin/xalan.jar" />
+    <record name="build.log"/>
+    <property name="Xalan" value="bin/xalan.jar" />
     <property name="infile" value="./src/bibliography.xml" />
     <property name="outfile" value="./build/FPV-Racing-Bibliography.html" />
     <property name="xsl-dir" value="./src/xsl" />
@@ -16,32 +16,32 @@
         <echo>${basedir}</echo>
     </target>
 
-	<target name="html" description="Create single page">
-	   	<antcall target="xslt-xalan">
-	       	<param name="xsl" value="${xsl-dir}/html.xsl"/>
-	        <param name="input" value="${infile}"/>
-	        <param name="output" value="${outfile}"/>
-	    </antcall>
-	</target>
+    <target name="html" description="Create single page">
+        <antcall target="xslt-xalan">
+               <param name="xsl" value="${xsl-dir}/html.xsl"/>
+            <param name="input" value="${infile}"/>
+            <param name="output" value="${outfile}"/>
+        </antcall>
+    </target>
 
-	<target name="xslt-xalan" description="Create multible HTML pages">
+    <target name="xslt-xalan" description="Create multible HTML pages">
         <echo>Input: ${input}</echo>
         <echo>Output: ${output}</echo>
         <exec executable="java" dir=".">
             <arg value="-cp" /> 
-            <arg value="bin/xercesImpl.jar" /> 
-            <arg value="-Djavax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl" /> 
-            <arg value="-Djavax.xml.parsers.SAXParserFactory=org.apache.xerces.jaxp.SAXParserFactoryImpl" /> 
-            <arg value="-Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration" /> 
-            <arg value="-jar" /> 
-            <arg value="${Xalan}" /> 
-            <arg value="-in" /> 
-            <arg value="${input}" /> 
-            <arg value="-xsl" /> 
+            <arg value="bin/xercesImpl.jar" />
+            <arg value="-Djavax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl" />
+            <arg value="-Djavax.xml.parsers.SAXParserFactory=org.apache.xerces.jaxp.SAXParserFactoryImpl" />
+            <arg value="-Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration" />
+            <arg value="-jar" />
+            <arg value="${Xalan}" />
+            <arg value="-in" />
+            <arg value="${input}" />
+            <arg value="-xsl" />
             <arg value="${xsl}" />
             <arg value="-out" />
             <arg value="${output}" />
-        </exec>             
+        </exec>
     </target> 
 
 </project>

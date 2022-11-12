@@ -8,24 +8,29 @@
 	xml:id="Open-FPV-Racing-Bibliography">
 
 	<info>
+		
 		<title>FPV Racing Bibliography</title>
+		
 		<subtitle>Open Docbook Project</subtitle>
-		<!-- <author> -->
-			<!-- <personname> -->
-				<!-- <firstname>Hans</firstname> -->
-				<!-- <surname>Müller</surname> -->
-			<!-- </personname> -->
-		<!-- </author> -->
+
+		<author>
+			<personname>
+				<firstname>Hans</firstname>
+				<surname>Müller</surname>
+			</personname>
+		</author>
+
 		<address>
 			<link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography" />
 		</address>
+
 		<!-- <abstract> -->
 			<!-- <para></para> -->
 		<!-- </abstract> -->
 		
-		<!-- <releaseinfo> -->
-			<!-- ... -->
-		<!-- </releaseinfo> -->
+		<releaseinfo>
+			Prerelease
+		</releaseinfo>
 		
 		<!-- <revhistory> -->
 			<!-- <info> -->
@@ -56,6 +61,11 @@
 	<biblioentry>
 		<title>The FUTURE of Shark Byte</title>
 		<subtitle>How HDZero, Fat Shark, and Divimath are Connected</subtitle>
+		<keywordset>
+			<keyword>HDZero</keyword>
+			<keyword>Fat Shark</keyword>
+			<keyword>Divimath</keyword>
+		</keywordset>
 		<!-- <abbrev>?</abbrev> -->
 		<bibliosource><link xlink:href="https://www.youtube.com/watch?v=7krQVRYIREw">YouTube</link></bibliosource>
 	</biblioentry>
@@ -82,7 +92,23 @@
 		<bibliosource>
 			<link xlink:href="https://blog.seidel-philipp.de/betaflight-handbuch/"/>
 		</bibliosource>
+	</biblioentry>
 
+	<biblioentry>
+		<title>TBS Tracer Crossfire complete setup guide</title>
+		<author>
+			<personname>Joshua Bardwell</personname>
+		</author>
+		<keywordset>
+			<keyword>Betaflight</keyword>
+			<keyword>Crossfire</keyword>
+		</keywordset>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=zEWlYpDZuS0"/>
+		</bibliosource>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>	
 	</biblioentry>
 	
 </bibliography>
