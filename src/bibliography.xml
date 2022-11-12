@@ -25,17 +25,30 @@
 		</address>
 
 		<abstract>
+			
 			<para xml:lang="en">XML Database for FPV related Content</para>
 			<para xml:lang="de">XML Daten für FPV bezogene Inhalte</para>
+
+			<para xml:lang="en">
+				Can be used for links to bibliography entries from other documents.
+			</para>
+			<para xml:lang="de">
+				Kann mit anderen Docbook Dokumenten verknüpft werden.
+			</para>
+
+			<para>
+				Website <link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography"/>
+			</para>
+
 		</abstract>
 		
 		<releaseinfo>
-			Prerelease
+			Pre Release
 		</releaseinfo>
 		
 		<revhistory>
 			<info>
-				<title>Revhistory</title>
+				<title>Revisionhistory</title>
 				<abstract>
 					<para>Prerelease</para>
 				</abstract>
@@ -58,14 +71,6 @@
 
 	</info>
 
-	<para>
-		Can be used for links to bibliography entries from other documents.
-	</para>
-
-	<para>
-		Project Website <link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography"/>
-	</para>
-		
 	<biblioentry>
 		<title>The FUTURE of Shark Byte</title>
 		<subtitle>How HDZero, Fat Shark, and Divimath are Connected</subtitle>
@@ -74,8 +79,12 @@
 			<keyword>Fat Shark</keyword>
 			<keyword>Divimath</keyword>
 		</keywordset>
-		<!-- <abbrev>?</abbrev> -->
-		<bibliosource><link xlink:href="https://www.youtube.com/watch?v=7krQVRYIREw">YouTube</link></bibliosource>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=7krQVRYIREw">YouTube</link>
+		</bibliosource>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>
 	</biblioentry>
 	
 	<biblioentry>
@@ -87,6 +96,9 @@
 		<bibliosource>
 			<link xlink:href="https://www.youtube.com/watch?v=rfn70ZWVnFU"/>
 		</bibliosource>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>
 	</biblioentry>
 
 	<biblioentry>
