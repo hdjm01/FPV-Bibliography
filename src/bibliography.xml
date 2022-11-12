@@ -24,30 +24,38 @@
 			<link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography" />
 		</address>
 
-		<!-- <abstract> -->
-			<!-- <para></para> -->
-		<!-- </abstract> -->
+		<abstract>
+			<para xml:lang="en">XML Database for FPV related Content</para>
+			<para xml:lang="de">XML Daten für FPV bezogene Inhalte</para>
+		</abstract>
 		
 		<releaseinfo>
 			Prerelease
 		</releaseinfo>
 		
-		<!-- <revhistory> -->
-			<!-- <info> -->
-				<!-- <title>...</title> -->
-			<!-- </info> -->
-			<!-- <revision> -->
-				<!-- <revnumber>###</revnumber> -->
-				<!-- <date>###</date> -->
-				<!-- <revdescription> -->
-					<!-- <itemizedlist> -->
-						<!-- <listitem> -->
-							<!-- <para>###</para> -->
-						<!-- </listitem> -->
-					<!-- </itemizedlist> -->
-				<!-- </revdescription> -->
-			<!-- </revision> -->
-		<!-- </revhistory> -->
+		<revhistory>
+			<info>
+				<title>Revhistory</title>
+				<abstract>
+					<para>Prerelease</para>
+				</abstract>
+			</info>
+			<revision>
+				<revnumber>v0.0.2</revnumber>
+				<date>2022</date>
+				<revdescription>
+					<itemizedlist>
+						<listitem>
+							<para>New Content</para>
+						</listitem>
+						<listitem>
+							<para>Minor Layout Changes</para>
+						</listitem>
+					</itemizedlist>
+				</revdescription>
+			</revision>
+		</revhistory>
+
 	</info>
 
 	<para>
