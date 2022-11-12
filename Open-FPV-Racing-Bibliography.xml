@@ -70,5 +70,19 @@
 			<link xlink:href="https://www.youtube.com/watch?v=rfn70ZWVnFU"/>
 		</bibliosource>
 	</biblioentry>
+
+	<biblioentry>
+		<title>Betaflight Handbuch</title>
+		<author>
+			<personname>Philipp Seidel</personname>
+		</author>
+		<keywordset>
+			<keyword>Betaflight</keyword>
+		</keywordset>
+		<bibliosource>
+			<link xlink:href="https://blog.seidel-philipp.de/betaflight-handbuch/"/>
+		</bibliosource>
+
+	</biblioentry>
 	
 </bibliography>
