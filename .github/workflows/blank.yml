@@ -28,6 +28,9 @@ jobs:
       - name: Install xalan
         run: sudo apt-get install -y xalan
 
+      - name: Install fop
+        run: sudo apt-get install -y fop
+
       - name: build
         run: ant build
 
