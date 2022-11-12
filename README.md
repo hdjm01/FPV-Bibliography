@@ -2,7 +2,6 @@
 
 A Collection of Media about FPV Racing based on Docbook
 
-* [HTML Version](./Open-FPV-Racing-Bibliography.html)
-* [Wiki](./wiki/Open-FPV-Racing-Bibliography)
-* [Issues](./issues)
-* [Board](./projects/1)
+* [Wiki](https://github.com/hdjm01/Open-FPV-Racing-Bibliography/wiki)
+* [Issues](https://github.com/hdjm01/Open-FPV-Racing-Bibliography/issues)
+* [Board](https://github.com/hdjm01/Open-FPV-Racing-Bibliography/projects/1)
