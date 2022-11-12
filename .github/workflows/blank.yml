@@ -30,11 +30,23 @@ jobs:
 
       - name: HTML
         run: ant html
-        
+
+  deploy:
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+
       - name: CSS
         run: cp ./src/css/* ./build/css/
+      
+      - name: Log
+        run: cp build.log ./build/
+      
+      - name: XML
+        run: cp ./src/bibliography.xml ./build/
 
-      - name: Archive code coverage results
+      - name: Archive results
         uses: actions/upload-artifact@v3
         with:
           name: FPV-Racing-Bibliography
