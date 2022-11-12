@@ -6,7 +6,9 @@
     <property name="Xalan" value="bin/xalan.jar" />
     <property name="infile" value="./src/bibliography.xml" />
     <property name="outfile" value="./build/FPV-Racing-Bibliography.html" />
+    <property name="pdf" value="./build/FPV-Racing-Bibliography.pdf" />
     <property name="xsl-dir" value="./src/xsl" />
+    <property name="fop" value="\fop-2.3\fop\fop.bat" />
 
     <condition property="isWindows">
         <os family="windows" />
@@ -76,6 +78,63 @@
             <arg value="${xsl}" />
             <arg value="-out" />
             <arg value="${out}" />
+        </exec>
+    </target>
+
+    <target name="PDF" description="Create PDF file">
+        <antcall target="fop-unix">
+            <param name="in" value="${infile}" />
+            <param name="out" value="${pdf}" />
+            <param name="xsl" value="${xsl-dir}/fo.xsl" />
+            <param name="type" value="pdf" />
+        </antcall>
+        <antcall target="fop-windows">
+            <param name="in" value="${infile}" />
+            <param name="out" value="${pdf}" />
+            <param name="xsl" value="${xsl-dir}/fo.xsl" />
+            <param name="type" value="pdf" />
+        </antcall>
+    </target>
+
+    <target name="fop-windows" description="XSL Transformation on Windows mashines" if="isWindows">
+
+        <echo>Input:  ${in}</echo>
+        <echo>Output: ${out}</echo>
+        <echo>XSL:    ${xsl}</echo>
+        <echo>Type:    ${xsl}</echo>
+
+        <echo>
+            ${fop} ${in} -xsl ${xsl} -${type} ${out}
+        </echo>
+
+        <exec executable="${fop}" failonerror="true" >
+            <arg value="-xml"/>
+            <arg value="${in}"/>
+            <arg value="-xsl"/>
+            <arg value="${xsl}"/>
+            <arg value="-${type}"/>
+            <arg value="${out}"/>
+         </exec>
+    </target>
+
+    <target name="fop-linux" description="XSL Transformation on Windows mashines" if="isLinux">
+
+        <echo>Input:  ${in}</echo>
+        <echo>Output: ${out}</echo>
+        <echo>XSL:    ${xsl}</echo>
+        <echo>Type:   ${type}</echo>
+        
+        <echo>
+            ${in} -xsl ${xsl} -${type} ${out}
+        </echo>
+            
+        <exec executable="fop" failonerror="true" >
+            <arg value="-xml"/>
+            <arg value="${input}"/>
+            <arg value="-xsl"/>
+             <arg value="${xsl}/fo.xsl"/>
+            <arg value="-${type}"/>
+            <arg value="${output}"/>
         </exec>
     </target>
 
