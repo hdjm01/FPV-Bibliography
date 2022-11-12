@@ -25,12 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Init
-        run: ant init
+      - name: Install xalan
+        run: sudo apt-get install -y xalan
 
-      - name: HTML
-        run: ant html
-        
+      - name: build
+        run: ant build
+
       - name: CSS
         run: cp ./src/css/* ./build/css/
 

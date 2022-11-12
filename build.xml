@@ -8,6 +8,14 @@
     <property name="outfile" value="./build/FPV-Racing-Bibliography.html" />
     <property name="xsl-dir" value="./src/xsl" />
 
+    <condition property="isWindows">
+        <os family="windows" />
+    </condition>
+  
+    <condition property="isUnix">
+        <os family="unix" />
+    </condition>
+
     <target name="init" description="prepare">
         <mkdir dir="./build"/>
         <mkdir dir="./build/css"/>
@@ -16,15 +24,27 @@
         <echo>${basedir}</echo>
     </target>
 
+    <target name="build" description="prepare" depends="init">
+        <antcall target="html"/>
+    </target>
+
     <target name="html" description="Create single page">
-        <antcall target="xslt-xalan">
+
+        <antcall target="xslt-windows">
                <param name="xsl" value="${xsl-dir}/html.xsl"/>
             <param name="input" value="${infile}"/>
             <param name="output" value="${outfile}"/>
         </antcall>
+
+        <antcall target="xslt-unix">
+            <param name="in" value="${infile}" />
+            <param name="out" value="${outfile}" />
+            <param name="xsl" value="${xsl-dir}/html.xsl" />
+        </antcall>
+
     </target>
 
-    <target name="xslt-xalan" description="Create multible HTML pages">
+    <target name="xslt-windows" description="Create multible HTML pages" if="isWindows">
         <echo>Input: ${input}</echo>
         <echo>Output: ${output}</echo>
         <exec executable="java" dir=".">
@@ -43,5 +63,20 @@
             <arg value="${output}" />
         </exec>
     </target> 
+
+    <target name="xslt-unix" if="isUnix">
+        <echo>using xalan</echo>
+        <echo>${in}</echo>
+        <echo>${out}</echo>
+        <echo>${xsl}</echo>
+        <exec executable="xalan">
+            <arg value="-in" />
+            <arg value="${in}" />
+            <arg value="-xsl" />
+            <arg value="${xsl}" />
+            <arg value="-out" />
+            <arg value="${out}" />
+        </exec>
+    </target>
 
 </project>
