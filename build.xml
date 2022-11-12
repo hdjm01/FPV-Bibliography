@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project name="Open FPV Racing Bibliography">
+
 	<record name="build.log"/>
 	<property name="Xalan" value="bin/xalan.jar" />
-	<target name="html" description="Create single page">
+
+    <target name="init" description="prepare">
+        <mkdir>build</mkdir>
+    </target>
+
+	<target name="html" description="Create single page" depends="init">
 	   	<antcall target="xslt-xalan">
 	       	<param name="xsl" value="xsl/html.xsl"/>
 	        <param name="input" value="./Open-FPV-Racing-Bibliography.xml"/>
-	        <param name="output" value="./Open-FPV-Racing-Bibliography.html"/>
+	        <param name="output" value="./build/Open-FPV-Racing-Bibliography.html"/>
 	    </antcall>
 	</target>
+
 	<target name="xslt-xalan" description="Create multible HTML pages">
         <echo>Input: ${input}</echo>
         <echo>Output: ${output}</echo>
@@ -28,4 +36,5 @@
             <arg value="${output}" />
         </exec>             
     </target> 
+
 </project>
