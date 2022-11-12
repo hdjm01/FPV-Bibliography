@@ -4,6 +4,8 @@
 
 	<record name="build.log"/>
 	<property name="Xalan" value="bin/xalan.jar" />
+    <property name="infile" value="./bibliography.xml" />
+    <property name="outfile" value="./build/FPV-Racing-Bibliography.html" />
 
     <target name="init" description="prepare">
         <mkdir dir="./build"/>
@@ -16,8 +18,8 @@
 	<target name="html" description="Create single page">
 	   	<antcall target="xslt-xalan">
 	       	<param name="xsl" value="xsl/html.xsl"/>
-	        <param name="input" value="./Open-FPV-Racing-Bibliography.xml"/>
-	        <param name="output" value="./build/Open-FPV-Racing-Bibliography.html"/>
+	        <param name="input" value="${infile}"/>
+	        <param name="output" value="${outfile}"/>
 	    </antcall>
 	</target>
 
