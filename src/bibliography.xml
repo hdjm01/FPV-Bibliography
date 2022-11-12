@@ -8,56 +8,83 @@
 	xml:id="Open-FPV-Racing-Bibliography">
 
 	<info>
+		
 		<title>FPV Racing Bibliography</title>
+		
 		<subtitle>Open Docbook Project</subtitle>
-		<!-- <author> -->
-			<!-- <personname> -->
-				<!-- <firstname>Hans</firstname> -->
-				<!-- <surname>Müller</surname> -->
-			<!-- </personname> -->
-		<!-- </author> -->
+
+		<author>
+			<personname>
+				<firstname>Hans</firstname>
+				<surname>Müller</surname>
+			</personname>
+		</author>
+
 		<address>
 			<link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography" />
 		</address>
-		<!-- <abstract> -->
-			<!-- <para></para> -->
-		<!-- </abstract> -->
+
+		<abstract>
+			
+			<para xml:lang="en">XML Database for FPV related Content</para>
+			<para xml:lang="de">XML Daten für FPV bezogene Inhalte</para>
+
+			<para xml:lang="en">
+				Can be used for links to bibliography entries from other documents.
+			</para>
+			<para xml:lang="de">
+				Kann mit anderen Docbook Dokumenten verknüpft werden.
+			</para>
+
+			<para>
+				Website <link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography"/>
+			</para>
+
+		</abstract>
 		
-		<!-- <releaseinfo> -->
-			<!-- ... -->
-		<!-- </releaseinfo> -->
+		<releaseinfo>
+			Pre Release
+		</releaseinfo>
 		
-		<!-- <revhistory> -->
-			<!-- <info> -->
-				<!-- <title>...</title> -->
-			<!-- </info> -->
-			<!-- <revision> -->
-				<!-- <revnumber>###</revnumber> -->
-				<!-- <date>###</date> -->
-				<!-- <revdescription> -->
-					<!-- <itemizedlist> -->
-						<!-- <listitem> -->
-							<!-- <para>###</para> -->
-						<!-- </listitem> -->
-					<!-- </itemizedlist> -->
-				<!-- </revdescription> -->
-			<!-- </revision> -->
-		<!-- </revhistory> -->
+		<revhistory>
+			<info>
+				<title>Revisionhistory</title>
+				<abstract>
+					<para>Prerelease</para>
+				</abstract>
+			</info>
+			<revision>
+				<revnumber>v0.0.2</revnumber>
+				<date>2022</date>
+				<revdescription>
+					<itemizedlist>
+						<listitem>
+							<para>New Content</para>
+						</listitem>
+						<listitem>
+							<para>Minor Layout Changes</para>
+						</listitem>
+					</itemizedlist>
+				</revdescription>
+			</revision>
+		</revhistory>
+
 	</info>
 
-	<para>
-		Can be used for links to bibliography entries from other documents.
-	</para>
-
-	<para>
-		Project Website <link xlink:href="https://github.com/hdjm01/Open-FPV-Racing-Bibliography"/>
-	</para>
-		
 	<biblioentry>
 		<title>The FUTURE of Shark Byte</title>
 		<subtitle>How HDZero, Fat Shark, and Divimath are Connected</subtitle>
-		<!-- <abbrev>?</abbrev> -->
-		<bibliosource><link xlink:href="https://www.youtube.com/watch?v=7krQVRYIREw">YouTube</link></bibliosource>
+		<keywordset>
+			<keyword>HDZero</keyword>
+			<keyword>Fat Shark</keyword>
+			<keyword>Divimath</keyword>
+		</keywordset>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=7krQVRYIREw">YouTube</link>
+		</bibliosource>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>
 	</biblioentry>
 	
 	<biblioentry>
@@ -69,6 +96,9 @@
 		<bibliosource>
 			<link xlink:href="https://www.youtube.com/watch?v=rfn70ZWVnFU"/>
 		</bibliosource>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>
 	</biblioentry>
 
 	<biblioentry>
@@ -82,7 +112,23 @@
 		<bibliosource>
 			<link xlink:href="https://blog.seidel-philipp.de/betaflight-handbuch/"/>
 		</bibliosource>
+	</biblioentry>
 
+	<biblioentry>
+		<title>TBS Tracer Crossfire complete setup guide</title>
+		<author>
+			<personname>Joshua Bardwell</personname>
+		</author>
+		<keywordset>
+			<keyword>Betaflight</keyword>
+			<keyword>Crossfire</keyword>
+		</keywordset>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=zEWlYpDZuS0"/>
+		</bibliosource>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>	
 	</biblioentry>
 	
 </bibliography>
