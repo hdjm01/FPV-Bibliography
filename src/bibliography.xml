@@ -362,4 +362,18 @@
 		</bibliosource>
 	</biblioentry>
 
+	<biblioentry xml:id="NanoRx" xml:lang="en">
+		<title>TBS CROSSFIRE Nano RX</title>
+		<subtitle>Quickstart guide</subtitle>
+		<revhistory>
+			<revision>
+				<date>2021-10-14</date>
+			</revision>
+		</revhistory>
+		<bibliosource>
+			<link
+				xlink:href="https://www.team-blacksheep.com/tbs-crossfire-nano-quickstart.pdf">tbs-crossfire-nano-quickstart.pdf</link>
+		</bibliosource>
+	</biblioentry>
+
 </bibliography>
