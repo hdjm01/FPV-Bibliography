@@ -376,4 +376,12 @@
 		</bibliosource>
 	</biblioentry>
 
+	<biblioentry xml:id="BetaFlightWiki" xml:lang="en">
+		<title>BetaFlight</title>
+		<subtitle>Wiki</subtitle>
+		<bibliosource>
+			<link xlink:href="https://github.com/betaflight/betaflight/wiki">Betaflight Wiki auf Github</link>
+		</bibliosource>
+	</biblioentry>
+bug
 </bibliography>
