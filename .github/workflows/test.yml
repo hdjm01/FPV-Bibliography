@@ -3,11 +3,12 @@ name: test
 on:
 
   pull_request:
-    branches: [ main ]
+    path: 
+      - 'src/bibliography.xml'
   
   push:
     branches: 
-      - '*'
+      - 'main'
     path: 
       - 'src/bibliography.xml'
 
