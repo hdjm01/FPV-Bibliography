@@ -29,13 +29,10 @@ jobs:
         run: sudo apt-get install -y xalan
 
       - name: build
-        run: ant build
+        run: ant init
 
-  deploy:
-    
-    runs-on: ubuntu-latest
-    
-    steps:
+      - name: build
+        run: ant build
 
       - name: CSS
         run: cp ./src/css/* ./build/css/
