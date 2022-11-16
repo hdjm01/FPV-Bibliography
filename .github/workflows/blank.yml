@@ -29,12 +29,21 @@ jobs:
         run: sudo apt-get install -y xalan
 
       - name: build
+        run: ant init
+
+      - name: build
         run: ant build
 
       - name: CSS
         run: cp ./src/css/* ./build/css/
+      
+      - name: Log
+        run: cp build.log ./build/
+      
+      - name: XML
+        run: cp ./src/bibliography.xml ./build/
 
-      - name: Archive code coverage results
+      - name: Archive results
         uses: actions/upload-artifact@v3
         with:
           name: FPV-Racing-Bibliography
