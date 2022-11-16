@@ -24,9 +24,9 @@ on:
 
       - uses: actions/checkout@v2
 
-      -name : install
+      - name: install
         run: sudo apt-get install libxml2-utils
       
-      -name: validate
+      - name: validate
         run: xmllint --noout ./src/bibliography.xml
         
