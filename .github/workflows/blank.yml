@@ -16,7 +16,7 @@ on:
 
   # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -55,11 +55,11 @@ jobs:
       - name: XML
         run: cp ./src/bibliography.xml ./build/
 
-      - name: Archive results
-        uses: actions/upload-artifact@v3
-        with:
-          name: FPV-Racing-Bibliography
-          path: build
+#      - name: Archive results
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: FPV-Racing-Bibliography
+#          path: build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
