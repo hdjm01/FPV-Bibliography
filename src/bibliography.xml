@@ -384,4 +384,17 @@
 		</bibliosource>
 	</biblioentry>
 
+	<biblioentry xml:id="AIRacingDrone" xml:lang="en">
+		<title>AI Racing Drone vs Human Learning Process - Zurich University</title>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>
+		<publisher>
+			<publishername>BMSweb</publishername>
+		</publisher>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=U_o6H7Xlv2A">Video on Youtube</link>
+		</bibliosource>
+	</biblioentry>
+
 </bibliography>
