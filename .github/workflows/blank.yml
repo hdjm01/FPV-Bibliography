@@ -37,8 +37,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Update
+        run: sudo apt-get update
+
       - name: Install xalan
         run: sudo apt-get install -y xalan
+
+      - name: Install fop
+        run: sudo apt-get install -y fop
 
       - name: build
         run: ant init
