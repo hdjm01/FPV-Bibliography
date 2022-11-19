@@ -131,11 +131,11 @@
             
         <exec executable="fop" failonerror="true" >
             <arg value="-xml"/>
-            <arg value="${input}"/>
+            <arg value="${in}"/>
             <arg value="-xsl"/>
-             <arg value="${xsl}/fo.xsl"/>
+             <arg value="${xsl}"/>
             <arg value="-${type}"/>
-            <arg value="${output}"/>
+            <arg value="${out}"/>
         </exec>
     </target>
 
