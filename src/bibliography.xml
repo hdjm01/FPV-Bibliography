@@ -132,5 +132,271 @@
 			<publishername>Youtube</publishername>
 		</publisher>	
 	</biblioentry>
+
+	<biblioentry xml:id="ESC1">
+		<title>ESC - Regler</title>
+		<author>
+			<personname>
+				<firstname>Bjoern</firstname>
+			</personname>
+		</author>
+		<date>19. September 2016</date>
+		<bibliosource>
+			<link
+				xlink:href="http://www.fpv-racing.info/fpv-racer/regler-escs/esc-regler/">fpv-racing.info</link>
+		</bibliosource>
+	</biblioentry>
 	
+	<biblioentry xml:id="ESC2">
+		<title>4in1 ESC Wiring &amp; Set Up
+			<indexterm>
+				<primary>ESC</primary>
+			</indexterm>
+			<indexterm>
+				<primary>4in1</primary>
+			</indexterm>
+		</title>
+		<publishername>Project Blue Falcon</publishername>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=al4G6XJPD9c">youtube.com</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="CF1">
+		<title>
+			Cleanflight
+			<indexterm>
+				<primary>Cleanflight</primary>
+			</indexterm>
+		</title>
+		<subtitle>Min Throttle, Min Command und Max. Throttle</subtitle>
+		<date> 10. Mai 2016</date>
+		<bibliosource>
+			<link
+				xlink:href="http://www.kopterforum.de/topic/53145-cleanflight-min-throttle-min-command-und-max-throttle/">kopterforum.de</link>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry xml:id="CF2">
+		<title>
+			Cleanflight
+			<indexterm>
+				<primary>Cleanflight</primary>
+			</indexterm>
+		</title>
+		<subtitle>Min Throttle, Min Command und Max. Throttle</subtitle>
+		<date> Nov 26, 2016</date>
+		<author>
+			<personname>
+				<firstname>Joshua</firstname>
+				<surname>Bardwell</surname>
+			</personname>
+		</author>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=xBaefeQtA1c">youtube.com</link>
+		</bibliosource>
+	</biblioentry>
+	
+	<biblioentry xml:id="P1">
+		<title>
+			Quadcopter Hot Motor
+			<indexterm>
+				<primary>Motor</primary>
+				<secondary>heiß</secondary>
+			</indexterm>
+		</title>
+		<subtitle>REAL WORLD TROUBLESHOOT</subtitle>
+		<date> Jun 2, 2017</date>
+		<author>
+			<personname>
+				<firstname>Joshua</firstname>
+				<surname>Bardwell</surname>
+			</personname>
+		</author>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=eo2sjTNS0pc">youtube.com</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="BL1">
+		<title>Operation manual for BLHeli_32</title>
+		<bibliosource>
+			<link
+				xlink:href="http://www.blheli32.com/operation-manual-for-blheli_32/">www.blheli32.com</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="WBLHeli">
+		<title>
+			What is BLHeli_32?
+			<indexterm>
+				<primary>BLHeli</primary>
+			</indexterm>
+		</title>
+		<date>April 13, 2017</date>
+		<bibliosource>
+			<link xlink:href="http://www.blheli32.com/what-is-blheli_32/">www.blheli32.com</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="DSHOT1">
+		<title>Dshot</title>
+		<subtitle>Digitale Reglersteuerung mit KISS</subtitle>
+		<author>
+			<personname>
+				<firstname>Phillip</firstname>
+				<surname>Seidel</surname>
+			</personname>
+		</author>
+		<date>2016-11-03</date>
+		<bibliosource>
+			<link
+				xlink:href="https://blog.seidel-philipp.de/dshot-digitale-reglersteuerung-mit-kiss/" />
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="WDshot">
+		<title>
+			What is Dshot1200 and Why Dshot1200 is Better?
+			<indexterm>
+				<primary>Dshot</primary>
+			</indexterm>
+		</title>
+		<date>May 12, 2017</date>
+		<bibliosource>
+			<link
+				xlink:href="http://www.blheli32.com/what-is-dshot1200-and-why-dshot1200-is-better/">www.blheli32.com</link>
+		</bibliosource>
+	</biblioentry>
+	
+	<biblioentry xml:id="FL1">
+		<title>Feldlader V2</title>
+		<subtitle>
+			Vorstellung mobiler Feldlader
+			<indexterm>
+				<primary>Feldlader</primary>
+				<secondary>Forum</secondary>
+			</indexterm>
+		</subtitle>
+		<publishername>fpv-racing-forum.de</publishername>
+		<bibliosource>
+			<link
+				xlink:href="https://fpv-racing-forum.de/thread/5776-feldlader-v2-vorstellung-mobiler-feldlader/">fpv-racing-forum.de</link>
+		</bibliosource>
+	</biblioentry>
+	<biblioentry xml:id="ISDTQ6">
+		<title>ISDT Q6 Plus</title>
+		<bibliosource>
+			<link xlink:href="http://www.isdt.co/q6-series.html">http://www.isdt.co/q6-series.html</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="TOTM">
+		<title>Taranis OpenTX_Manual Deutsch 0406_003</title>
+		<bibliosource>
+			<link
+				xlink:href="../Hardware/RC/FrSky/Taranis/Taranis OpenTX_Manual_Deutsch_0406_003.pdf">PDF</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="TaranisLua1">
+		<title>
+			HOW TO CHANGE PID AND BETAFLIGHT SETTINGS WITH TARANIS LUA SCRIPT
+			<indexterm>
+				<primary>TARANIS</primary>
+				<secondary>Lua Script</secondary>
+			</indexterm>
+		</title>
+		<publishername>oscarliang.com</publishername>
+		<bibliosource>
+			<link
+				xlink:href="https://oscarliang.com/betaflight-change-pid-vtx-settings-taranis/">Website</link>
+		</bibliosource>
+
+	</biblioentry>
+	<biblioentry xml:id="OmnibusF41">
+		<title>Omnibus F4 Flight Controller Guide</title>
+		<publishername>DroneTrest Blog</publishername>
+		<bibliosource>
+			<link
+				xlink:href="https://blog.dronetrest.com/omnibus-f4-flight-controller-guide/#pinout">blog.dronetrest.com</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="OMNIBUSF4">
+		<title>Board OMNIBUS F4</title>
+		<subtitle>... AIO, ... V2/V3/V4, ... Pro (v2)/V3 and ASGARD</subtitle>
+		<abstract xml:lang="de">
+			<para>Ein Text des Betaflight Projektes</para>
+		</abstract>
+		<bibliosource>
+			<link
+				xlink:href="https://github.com/betaflight/betaflight/wiki/Board---OMNIBUSF4" />
+		</bibliosource>
+		<keywordset>
+			<keyword>Omnibus</keyword>
+			<keyword>Board</keyword>
+			<keyword>Betaflight</keyword>
+			<keyword></keyword>
+		</keywordset>
+	</biblioentry>
+
+	<biblioentry xml:id="VTX1" xml:lang="en">
+		<title>What is VTX telemetry and why should you care?</title>
+		<subtitle>SmartAudio and Tramp</subtitle>
+		<author>
+			<personname>
+				<firstname />
+				<surname></surname>
+			</personname>
+		</author>
+		<date />
+		<publishername>DroneTrest Blog</publishername>
+		<bibliosource>
+			<link xlink:href="https://blog.dronetrest.com/smart-audio-vtx/">blog.dronetrest.com</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="PID1" xml:lang="de">
+		<title>PID-Regelung</title>
+		<bibliosource>
+			<link
+				xlink:href="http://www.technik-consulting.eu/Optimierung/Drohne_PID-Regelung.html">www.technik-consulting.eu</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="NanoRx" xml:lang="en">
+		<title>TBS CROSSFIRE Nano RX</title>
+		<subtitle>Quickstart guide</subtitle>
+		<revhistory>
+			<revision>
+				<date>2021-10-14</date>
+			</revision>
+		</revhistory>
+		<bibliosource>
+			<link
+				xlink:href="https://www.team-blacksheep.com/tbs-crossfire-nano-quickstart.pdf">tbs-crossfire-nano-quickstart.pdf</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="BetaFlightWiki" xml:lang="en">
+		<title>BetaFlight</title>
+		<subtitle>Wiki</subtitle>
+		<bibliosource>
+			<link xlink:href="https://github.com/betaflight/betaflight/wiki">Betaflight Wiki auf Github</link>
+		</bibliosource>
+	</biblioentry>
+
+	<biblioentry xml:id="AIRacingDrone" xml:lang="en">
+		<title>AI Racing Drone vs Human Learning Process - Zurich University</title>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>
+		<publisher>
+			<publishername>BMSweb</publishername>
+		</publisher>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=U_o6H7Xlv2A">Video on Youtube</link>
+		</bibliosource>
+	</biblioentry>
+
 </bibliography>

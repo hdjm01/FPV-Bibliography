@@ -1,4 +1,4 @@
-# Open FPV Racing Bibliography
+# FPV Bibliography
 
 A Collection of Media about FPV Racing based on Docbook
 
