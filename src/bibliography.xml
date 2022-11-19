@@ -399,4 +399,19 @@
 		</bibliosource>
 	</biblioentry>
 
+	<biblioentry>
+		<title>Lowpass filters explained - deep basics</title>
+		<publisher>
+			<publishername>Youtube</publishername>
+		</publisher>
+		<author>
+			<personname>
+				Ivan Efimov
+			</personname>
+		</author>
+		<bibliosource>
+			<link xlink:href="https://www.youtube.com/watch?v=ryktYLezC3U">Video on Youtube</link>
+		</bibliosource>
+	</biblioentry>
+
 </bibliography>
