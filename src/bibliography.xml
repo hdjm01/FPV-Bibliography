@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE bibliography PUBLIC "-//OASIS//DTD DocBook V5.0//EN" "./dtd/docbook-5.0/docbook.dtd">
+<!-- <!DOCTYPE bibliography PUBLIC "-//OASIS//DTD DocBook V5.0//EN" "./dtd/docbook-5.0/docbook.dtd"> -->
 <bibliography status="InDevelopment" version="5.0"
 	xml:lang="de" 
 	revision="v1.0" 
 	xmlns="http://docbook.org/ns/docbook"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xlink="http://www.w3.org/1999/xlink" 
-	xml:id="Open-FPV-Racing-Bibliography">
+	xml:id="Open-FPV-Racing-Bibliography"
+	xsi:schemaLocation="http://docbook.org/ns/docbook xsd\5.0\docbook.xsd">
 
 	<info>
 		
@@ -129,6 +131,9 @@
 		<publisher>
 			<publishername>Youtube</publishername>
 		</publisher>	
+
 	</biblioentry>
+
+	
 	
 </bibliography>
