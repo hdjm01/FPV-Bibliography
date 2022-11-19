@@ -21,6 +21,7 @@
     <target name="init" description="prepare">
         <mkdir dir="./build"/>
         <mkdir dir="./build/css"/>
+        <mkdir dir="./build/xsd"/>
         <echo>${user.dir}</echo>
         <echo>${user.home}</echo>
         <echo>${basedir}</echo>
