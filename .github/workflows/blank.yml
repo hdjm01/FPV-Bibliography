@@ -44,7 +44,10 @@ jobs:
 
       - name: CSS
         run: cp ./src/css/* ./build/css/
-      
+
+      - name: Copy XSD to output
+        run: cp -r ./src/xsd/* ./build/xsd/
+
       - name: Log
         run: cp build.log ./build/
       
