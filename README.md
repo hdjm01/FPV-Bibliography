@@ -1,6 +1,6 @@
 # FPV Bibliography
 
-A Collection of Media about FPV Racing based on Docbook
+A Collection of Media about FPV in Docbook
 
 * [Wiki](https://github.com/hdjm01/Open-FPV-Racing-Bibliography/wiki)
 * [Issues](https://github.com/hdjm01/Open-FPV-Racing-Bibliography/issues)
