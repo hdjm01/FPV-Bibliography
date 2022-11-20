@@ -413,4 +413,19 @@
 		</bibliosource>
 	</biblioentry>
 
+	<biblioentry>
+		<title>FPV Flight Dynamics</title>
+		<subtitle>Mastering Acro Mode on High-Performance Drones</subtitle>
+		<author>
+			<personname>Christian M. Mollica</personname>
+		</author>
+		<abstract>
+			<para>Available also as Ebook</para>
+		</abstract>
+		<bibliosource>
+			<link xlink:href="https://books.google.de/books?id=u60mEAAAQBAJ">Google Books</link>
+			<link xlink:href="https://www.amazon.de/s?k=9781736209417" xml:lang="de">Auf Amazon</link>
+		</bibliosource>
+	</biblioentry>
+
 </bibliography>
