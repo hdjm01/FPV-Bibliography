@@ -5,7 +5,7 @@
     <record name="build.log"/>
     <property name="Xalan" value="bin/xalan.jar" />
     <property name="infile" value="./src/bibliography.xml" />
-    <property name="outfile" value="./build/Index.html" />
+    <property name="outfile" value="./build/index.html" />
     <property name="pdf" value="./build/FPV-Bibliography.pdf" />
     <property name="xsl-dir" value="./src/xsl" />
     <property name="fop" value="\fop-2.3\fop\fop.bat" />
