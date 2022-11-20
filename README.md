@@ -1,6 +1,7 @@
 # FPV Bibliography
 
-[Page](https://hdjm01.github.io/FPV-Bibliography/)
+* [HTML](https://hdjm01.github.io/FPV-Bibliography/)
+* [PDF](https://hdjm01.github.io/FPV-Bibliography/FPV-Bibliography.pdf)
 
 A Collection of Media about FPV in Docbook
 
