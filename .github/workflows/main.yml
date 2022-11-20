@@ -87,3 +87,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
+      - name: Deploy artifact 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
