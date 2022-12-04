@@ -438,7 +438,7 @@
 		<personname>The RCAddict</personname>
 	  </author>
 	  <bibliosource>
-		<link>https://www.youtube.com/watch?v=Wy5VcDFdb6E</link>
+		<link xlink:href="https://www.youtube.com/watch?v=Wy5VcDFdb6E">Video on Youtube</link>
 	  </bibliosource>
 	</biblioentry>
 
