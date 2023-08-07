@@ -27,6 +27,12 @@
         <echo>${basedir}</echo>
     </target>
 
+    <target name="copy-files" description="Copy files to build dir">
+        <copy todir="./build/css/">
+            <fileset dir="./src/css"/>
+        </copy>
+    </target>
+
     <target name="build" description="prepare" depends="init">
         <antcall target="html"/>
         <antcall target="pdf"/>
@@ -35,7 +41,7 @@
     <target name="html" description="Create single page">
 
         <antcall target="xslt-windows">
-               <param name="xsl" value="${xsl-dir}/html.xsl"/>
+            <param name="xsl" value="${xsl-dir}/html.xsl"/>
             <param name="input" value="${infile}"/>
             <param name="output" value="${outfile}"/>
         </antcall>

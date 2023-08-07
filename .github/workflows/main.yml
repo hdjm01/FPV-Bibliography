@@ -1,5 +1,3 @@
-# This is currently the main Worflow. Needs mroe improvements
-
 name: CI
 
 # Controls when the workflow will run
@@ -29,18 +27,11 @@ concurrency:
 jobs:
   # This workflow contains a single job called "build"
   
-  build-and-deploy:
+  build:
   
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
       - name: Update
@@ -58,28 +49,35 @@ jobs:
       - name: build
         run: ant build
 
-      - name: CSS
-        run: cp ./src/css/* ./build/css/
-
-      - name: Copy XSD to output
-        run: cp -r ./src/xsd/* ./build/xsd/
-
-      - name: Log
-        run: cp build.log ./build/
-      
-      - name: XML
-        run: cp ./src/bibliography.xml ./build/
+      - name: copy
+        run: ant copy-files
 
       - name: Archive results
         uses: actions/upload-artifact@v3.1.1
         with:
           name: FPV-Bibliography
           path: build
+  deploy:
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    
+    needs: build
+
+    steps:
+      
+      - name: Get build results
+        uses: actions/download-artifact@v3
+        with:
+          name: FPV-Bibliography
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
-      - name: Upload artifact
+      - name: Upload build GitHub Pages
         uses: actions/upload-pages-artifact@v1
         with:
           path: build
@@ -87,8 +85,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-      # - name: Deploy artifact 🚀
-      #   uses: JamesIves/github-pages-deploy-action@v4
-      #   with:
-      #     folder: build
