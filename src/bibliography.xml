@@ -131,20 +131,6 @@
 			<publishername>Youtube</publishername>
 		</publisher>	
 	</biblioentry>
-
-	<biblioentry xml:id="ESC1">
-		<title>ESC - Regler</title>
-		<author>
-			<personname>
-				<firstname>Bjoern</firstname>
-			</personname>
-		</author>
-		<date>19. September 2016</date>
-		<bibliosource>
-			<link
-				xlink:href="http://www.fpv-racing.info/fpv-racer/regler-escs/esc-regler/">fpv-racing.info</link>
-		</bibliosource>
-	</biblioentry>
 	
 	<biblioentry xml:id="ESC2">
 		<title>4in1 ESC Wiring &amp; Set Up
