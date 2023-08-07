@@ -104,7 +104,7 @@
         </antcall>
     </target>
 
-    <target name="fop-windows" description="XSL Transformation on Windows mashines" if="isWindows">
+    <target name="fop-windows" description="XSL Transformation on Windows machines" if="isWindows">
 
         <echo>Input:  ${in}</echo>
         <echo>Output: ${out}</echo>
@@ -125,7 +125,7 @@
          </exec>
     </target>
 
-    <target name="fop-unix" description="XSL Transformation on Windows mashines" if="isUnix">
+    <target name="fop-unix" description="XSL Transformation on Windows machines" if="isUnix">
 
         <echo>Input:  ${in}</echo>
         <echo>Output: ${out}</echo>
