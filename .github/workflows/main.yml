@@ -83,7 +83,7 @@ jobs:
       - name: Upload build GitHub Pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: FPV-Bibliography
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
