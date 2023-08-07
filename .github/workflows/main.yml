@@ -74,9 +74,6 @@ jobs:
         with:
           name: FPV-Bibliography
 
-      - name: Display structure of downloaded files
-        run: ls -R
-
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
