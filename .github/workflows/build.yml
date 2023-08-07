@@ -52,7 +52,7 @@ jobs:
       
       - uses: actions/download-artifact@v3
         with:
-          name: buFPV-Bibliographyild
+          name: FPV-Bibliographyild
           
       - name: Display structure of downloaded files
         run: ls -R
